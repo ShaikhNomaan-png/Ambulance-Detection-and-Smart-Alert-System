@@ -1,6 +1,6 @@
 # 🚑 Ambulance Detection and Smart Alert System
 
-![Ambulance Detection Demo](https://raw.githubusercontent.com/ShaikhNomaan-png/Ambulance-Detection-and-Smart-Alert-System/main/assets/ambulance-demo.gif)
+![Ambulance Detection Demo](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80)
 
 ---
 
@@ -36,7 +36,7 @@
 
 ## 📸 System Flow
 
-![System Architecture](https://raw.githubusercontent.com/ShaikhNomaan-png/Ambulance-Detection-and-Smart-Alert-System/main/assets/system-architecture.png)
+![System Architecture](https://upload.wikimedia.org/wikipedia/commons/4/4d/Traffic_signal_cycle_diagram.png)
 
 1. **Image/Video Capture**  
    Cameras at traffic signals stream footage to the detection module.
@@ -79,7 +79,7 @@
 
 | Input Frame | Detection Output |
 |-------------|-----------------|
-| ![Input](https://raw.githubusercontent.com/ShaikhNomaan-png/Ambulance-Detection-and-Smart-Alert-System/main/assets/sample-input.jpg) | ![Output](https://raw.githubusercontent.com/ShaikhNomaan-png/Ambulance-Detection-and-Smart-Alert-System/main/assets/sample-output.jpg) |
+| ![Input](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80) | ![Output](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80) |
 
 ---
 
