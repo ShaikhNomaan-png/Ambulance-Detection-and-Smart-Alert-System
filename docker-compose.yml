@@ -1,0 +1,58 @@
+version: "3.8"
+services:
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - appnet
+
+  php-api:
+    build: ./php-api
+    volumes:
+      - ./php-api/public:/var/www/html
+    ports:
+      - "8000:80"
+    depends_on:
+      - mysql
+    networks:
+      - appnet
+
+  dashboard:
+    image: php:8.1-apache
+    volumes:
+      - ./dashboard/public:/var/www/html
+      - ./php-api/public:/var/www/php-api
+    ports:
+      - "8080:80"
+    depends_on:
+      - php-api
+      - mysql
+    networks:
+      - appnet
+
+  detector:
+    build: ./detector
+    volumes:
+      - ./php-api/public/snapshots:/app/snapshots
+      - ./detector/models:/app/models
+    depends_on:
+      - php-api
+    networks:
+      - appnet
+
+  signal:
+    build: ./signal-simulator
+    ports:
+      - "9000:9000"
+    networks:
+      - appnet
+
+volumes:
+  dbdata:
+
+networks:
+  appnet:
