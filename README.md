@@ -34,32 +34,26 @@ Designed to work **offline and online** for uninterrupted emergency support!
 ## 📸 Demo Images
 
 ### 🚧 Ambulance Detected in Traffic (Offline Scenario)
-![Ambulance in Traffic](https://cdn.pixabay.com/photo/2016/11/29/09/32/ambulance-1864977_1280.jpg)
+![Ambulance in Busy Traffic](https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1000&q=80)
 <sub>*Local detection, automatic signal switching. No internet required!*</sub>
 
 ---
 
 ### 🌍 Ambulance Alert with Internet (Online Scenario)
-![Ambulance Alert Internet](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80)
+![Ambulance On Road](https://images.unsplash.com/photo-1511193311918-7f6a6203a6ce?auto=format&fit=crop&w=1000&q=80)
 <sub>*Real-time cloud alerts, dashboard update, and remote lane clearance.*</sub>
 
 ---
 
 ### 🤖 AI Detection Example (YOLO Bounding Box)
-![YOLO Ambulance Detection](https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&w=1000)
+![Ambulance Detection](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1000&q=80)
 <sub>*YOLO model bounding box detection on moving ambulance in live traffic feed.*</sub>
 
 ---
 
 ### 🚦 Emergency Lane Clearance
-![Emergency Lane Clearance](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80)
+![Ambulance Lane Clear](https://images.unsplash.com/photo-1528821154947-1aa3df1e8c03?auto=format&fit=crop&w=1000&q=80)
 <sub>*Automated traffic signal switches, opening lane for ambulance.*</sub>
-
----
-
-### 💻 Dashboard View
-![Dashboard Example](https://user-images.githubusercontent.com/674621/146648606-3c8e1c3b-69d4-46a7-b2be-2d2bba4fa9d2.png)
-<sub>*Monitor ambulance detections, alerts, and traffic status in real time.*</sub>
 
 ---
 
@@ -108,9 +102,9 @@ Designed to work **offline and online** for uninterrupted emergency support!
 
 ## 🙏 Acknowledgements
 
-- 📷 Images are sourced from [Pixabay](https://pixabay.com), [Unsplash](https://unsplash.com), and [Pexels](https://pexels.com) under free licenses.
+- 📷 Images are sourced from [Unsplash](https://unsplash.com) under free licenses.
 - 💡 Inspired by the need to save lives with technology.
 
 ---
 
-<sub>Images are for demonstration purposes only.</sub>
+<sub>Images are for demonstration purposes only and show ambulances in real-world traffic environments.</sub>
