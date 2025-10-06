@@ -31,23 +31,7 @@ Designed to work **offline and online** for uninterrupted emergency support!
 
 ---
 
-## 📸 Demo Images
 
-### 🚧 Ambulance Detected in Traffic (Offline Scenario)
-![Ambulance in Busy Traffic](https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1000&q=80)
-<sub>*Local detection, automatic signal switching. No internet required!*</sub>
-
----
-
-### 🌍 Ambulance Alert with Internet (Online Scenario)
-![Ambulance On Road](https://images.unsplash.com/photo-1511193311918-7f6a6203a6ce?auto=format&fit=crop&w=1000&q=80)
-<sub>*Real-time cloud alerts, dashboard update, and remote lane clearance.*</sub>
-
----
-
-### 🤖 AI Detection Example (YOLO Bounding Box)
-![Ambulance Detection](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1000&q=80)
-<sub>*YOLO model bounding box detection on moving ambulance in live traffic feed.*</sub>
 
 ---
 
