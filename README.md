@@ -1,6 +1,6 @@
 # 🚑 Ambulance Detection and Smart Alert System
 
-![Ambulance in Traffic](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80)
+![Ambulance in Traffic](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80)
 *Ambulance moving through city traffic*
 
 ---
@@ -37,9 +37,6 @@
 
 ## 📸 System Flow
 
-![Ambulance at Hospital](https://images.unsplash.com/photo-1586773860413-6c7b8bdfb0c6?auto=format&fit=crop&w=800&q=80)
-*Ambulance in front of hospital entrance*
-
 1. **Image/Video Capture**  
    Cameras at traffic signals stream footage to the detection module.
 2. **Ambulance Detection**  
@@ -50,13 +47,6 @@
    Emergency lanes are cleared by adjusting traffic signals.
 5. **Dashboard & Logging**  
    Admins view events, images, and logs via a dashboard.
-
----
-
-## 🚦 Ambulance at Traffic Signal
-
-![Ambulance Waiting at Traffic Signal](https://upload.wikimedia.org/wikipedia/commons/4/4d/Traffic_signal_cycle_diagram.png)
-*Illustrative traffic signal logic for automated ambulance clearance*
 
 ---
 
@@ -88,7 +78,7 @@
 
 | Input Frame | Detection Output |
 |-------------|-----------------|
-| ![Input](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80) | ![Output](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80) |
+| ![Input](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80) | ![Output](https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80) |
 
 ---
 
